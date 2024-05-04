@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <h1 class="logo">ADVENTURE</h1>
+    <ul class="nav-links">
+      <li class="active"><a href="#"></a>Home</li>
+      <li><a href="#"></a>Tours</li>
+      <li><a href="#"></a>Explore</li>
+      <li><a href="#"></a>About</li>
+      <li class="ctn"><a href="#"></a>Contact</li>
+    </ul>
+    <img src="menu-btn.png" alt="" class="menu-button">
+  </nav>
+  <header>
+    <div class="header-content">
+      <h2>Explore The Colourfull World</h2>
+      <div class="line"></div>
+      <h1>A WOUNDERFUL GIFT</h1>
+      <a class="ctn" href="#">See More</a>
+    </div>
+  </header>
+  <section class="events">
+    <div class="title">
+      <h1>Upcoming Events</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="img1.png" alt="">
+        <h4>Evarest Camp Truck</h4>
+        <p>Lorem ugit! Recusandae exercitationem doloremque hic quo, quia rem adipisci voluptates. Non ipsum ipsam
+          obcaecati labore recusandae.</p>
+        <a href="#" class="ctn"> Learn more</a>
+      </div>
+      <div class="col">
+        <img src="img2.png" alt="">
+        <h4>Hill walking Feel</h4>
+        <p>Lorem ugit! Recusandae exercitationem doloremque hic quo, quia rem adipisci voluptates. Non ipsum ipsam
+          obcaecati labore recusandae.</p>
+        <a href="#" class="ctn"> Learn more</a>
+      </div>
+    </div>
+  </section>
+  <section class="explore">
+    <div class="explore-content">
+      <h1>EXPLORE THE WORLD</h1>
+      <div class="line"></div>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestiae recusandae ipsam illum nulla iure, et
+        rem saepe dolor rerum eius porro enim quod libero.</p>
+      <a href="#" class="ctn"> Learn more</a>
+
+    </div>
+
+  </section>
+
+  <section class="tours">
+    <div class="row">
+      <div class="col content-col">
+      <h1>UPCOMING TOUR AND DESTINATION</h1>
+      <div class="line"></div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ullam corporis, blanditiis id tempora molestias quam iste magni aperiam quae est necessitatibus nisi, consequuntur assumenda laborum accusantium! Neque eaque perspiciatis quod exercitationem dignissimos nihil aspernatur, mollitia corporis quia sunt ut.</p>
+      <a href="#" class="ctn"> Learn more</a>
+      </div>
+      <div class="col image-col">
+         <div class="image-gallary">
+          <img src="img3.png" alt="">
+          <img src="img4.png" alt="">
+          <img src="img5.png" alt="">
+          <img src="img6.png" alt="">
+         </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <p>House NO: 10 Raod Name: Satmatha | Madane Avenue,Badda, Dhaka | Email: fahimbafu@gamil.com</p>
+    <p>Copyright @ 1948-2067</p>
+  </section>
+  <script>
+    const menubtn = document.querySelector('.menu-button')
+    const navlinks = document.querySelector('.nav-links')
+    menubtn.addEventListener('click', () => {
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+
+</html>
